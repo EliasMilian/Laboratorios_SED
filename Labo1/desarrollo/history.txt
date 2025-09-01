@@ -1,0 +1,252 @@
+    1  sudo add-apt-repository ppa:yannubuntu/boot-repair
+    2  sudo apt install boot-repair
+    3  sudo add-apt-repository ppa:trebelnik-stefina/grub-customizer
+    4  sudo apt update
+    5  sudo apt install grub-customizer
+    6  ls
+    7  cd Descargas/
+    8  sudo dpkg -i google-chrome-stable_current_amd64.deb 
+    9  sudo apt install curl
+   10  sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
+   11  echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+   12  sudo apt update
+   13  sudo apt install brave-browser
+   14  sudo apt update
+   15  sudo timedatectl set-local-rtc 1
+   16  sudo nautilus
+   17  sudo apt install git 
+   18  sudo apt update
+   19  sudo apt-get remove docker docker-engine docker.io containerd runc
+   20  sudo apt install gnome-terminal
+   21  sudo apt remove docker-desktop
+   22  rm -r $HOME/.docker/desktop
+   23  sudo rm /usr/local/bin/com.docker.cli
+   24  sudo apt purge docker-desktop
+   25  sudo apt-get update
+   26  sudo apt-get install ./docker-desktop-<version>-<arch>.deb
+   27  cd / Descargas/
+   28  ls
+   29  cd Descargas/
+   30  ls
+   31  sudo dpkg -i docker-desktop-4.16.2-amd64.deb 
+   32  sudo apt-get update
+   33  sudo apt-get install ./docker-desktop-4.16.2-amd64.deb 
+   34  sudo apt install qemu-system-x86
+   35  sudo apt-get -y install qemu-system-x86
+   36  sudo apt -y install qemu-system-x86
+   37  sudo apt update
+   38  sudo apt install apt-transport-https ca-certificates curl software-properties-common
+   39  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+   40  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+   41  apt-cache policy docker-ce
+   42  sudo apt install docker-ce
+   43  sudo systemctl status docker
+   44  ./studio.sh 
+   45  System.setProperty("https.protocols", "TLSv1 TLSv1.1 TLSv1.2 TLSv1.3");
+   46  System.setProperty("https.protocols" "TLSv1 TLSv1.1 TLSv1.2 TLSv1.3");
+   47  System.setProperty("https.protocols", "TLSv1,TLSv1.1,TLSv1.2");
+   48  ./studio.sh 
+   49  java --v
+   50  java -v
+   51  java --version
+   52  javac --version
+   53  sudo docker run hello-word
+   54  sudo docker run hello-wordl
+   55  sudo docker run hello-world
+   56  sudo docker run hello-world 
+   57  sudo docker ps
+   58  sudo docker ps -a
+   59  sudo docker --version
+   60  git config --global --unset credential.helper
+   61  git config show
+   62  git config --show
+   63  git config --global 
+   64  git conf
+   65  git config --list
+   66  git --v
+   67  git config --list --show-origin
+   68  git config --global --list --show-origin
+   69  git config  ---system --global --list --show-origin 
+   70  git config  --system --global --list --show-origin 
+   71  git config  --system --list --show-origin 
+   72  ls
+   73  cd
+   74  git config  --system --global --list --show-origin 
+   75  ls 
+   76  docker info
+   77  docker --version
+   78  sudo apt install default-jre
+   79  egrep -c '(vmx|svm)' /proc/cpuinfo
+   80  kvm-ok
+   81  sudo apt-get install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils
+   82  kvm-ok
+   83  egrep -c '(vmx|svm)' /proc/cpuinfo
+   84  kvm-ok
+   85  history
+   86  sudo nautilus
+   87  sudo gedit /usr/share/applications/Spring.desktop
+   88  sudo nautilus
+   89  sudo apt update
+   90  sudo apt install openjdk-11-jdk
+   91  java -version
+   92  sudo adduser Moviles 
+   93  sudo adduser moviles 
+   94  exit
+   95  ./studio.sh 
+   96  sudo visudo 
+   97  sudo usermod -aG docker ${moviles}
+   98  sudo usermod -aG docker ${USER}
+   99  less /etc/group
+  100  sudo moviles
+  101  sudo su 
+  102  sudo su moviles
+  103  sudo usermod -aG docker moviles
+  104  groups
+  105  sudo su moviles 
+  106  java
+  107  java -v
+  108  java --ersion
+  109  java --version
+  110  javac -v
+  111  javac --version
+  112  sudo apt update
+  113  sudo apt install node js
+  114  sudo apt install nodejs
+  115  node -v
+  116  sudo apt install npm
+  117  sudo apt install curl
+  118  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+  119  nvm
+  120  exit
+  121  nvm
+  122  nvm install 
+  123  nvm install lasted
+  124  nvm install node
+  125  nodejs
+  126  sudo docker 
+  127  node
+  128  exit
+  129  npm install express-generator -g
+  130  npm unistall express-generator 
+  131  npm uninstall express-generator 
+  132  npm uninstall -g express-generator 
+  133  ls
+  134  cd /home/
+  135  ls
+  136  cd moviles/
+  137  sudo su
+  138  mkdir nc
+  139  cd nc
+  140  touch numerico.py
+  141  code .
+  142  exit
+  143  su admindei
+  144  java --version
+  145  ./idea.sh
+  146  ls
+  147  git config --unser user.name
+  148  git config --unset user.name
+  149  git config --config user.name "HerberthChavez19"
+  150  git config --global user.name "HerberthChavez19"
+  151  git config --global user.email "00116223@uca.edu.sv"
+  152  git user.name
+  153  --help
+  154  help
+  155  git config -l
+  156  git init
+  157  git status
+  158  git add.
+  159  git add .
+  160  git commit -m ":feat: Se agrego el primer commit"
+  161  git remote add origin https://github.com/HerberthChavez19/PrimerParcialPOO_VenturaChavez_00116223.git
+  162  git push origin master
+  163  git add .
+  164  git commit -m ":fix:Se elimino una funcion innecesaria"
+  165  git push
+  166  git push origin master
+  167  exit
+  168  git init
+  169  git add README.me
+  170  git comit -m "Agregando parcial"
+  171  git commit -m "Agregando parcial"
+  172  git branch -M main
+  173  git remote add origin https://github.com/darlyndonis/SegundoParcialPOO_DonisPalma_00083823.git
+  174  git push -u origin main
+  175  git status
+  176  git add .
+  177  git commit -m "Agregando parcial"
+  178  git push origin main
+  179  git status
+  180  git init https://github.com/darlyndonis/SegundoParcialPOO_DonisPalma_00083823.git
+  181  git config --global --list
+  182  git config --global --unset user.name
+  183  git config --global --unset user.email
+  184  git config --global --list
+  185  git config --global user.name "darlyndonis"
+  186  git config --global user.email "00083823@uca.edu.sv"
+  187  git config --global --list
+  188  git init
+  189  https://github.com/darlyndonis/SegundoParcialPOO_DonisPalma_00083823.git
+  190  cd .
+  191  ls
+  192  ls .
+  193  git config --global --unset user.email
+  194  git config --global --unset user.name
+  195  git config --global --list
+  196  git clone https://github.com/DennysRivera/tesis_dashboard.git
+  197  cd tesis_dashboard
+  198  docker compose up
+  199  docker compose up -d
+  200  node seed/seeder.js -i
+  201  docker exec -it backend sh
+  202  docker compose down
+  203  ls
+  204  mkdir mario
+  205  cd mario/
+  206  touch a.cpp
+  207  nano a.cpp 
+  208  code a.cpp 
+  209  g++ a.cpp -o test && ./test
+  210  2
+  211  g++ a.cpp -o test && ./test
+  212  cd 
+  213  rm -rf mario/
+  214  shutdown now
+  215  sudo brew install gnupg
+  216  gnupg //v
+  217  gnupg --v
+  218  gnupg --version
+  219  gnupg--version
+  220  gnupg --version
+  221  gnubg --version
+  222  gpg --version
+  223  c;ear
+  224  clear
+  225  gpg --full-generate-key
+  226  gpg --output my_revocation_certificate.asc --gen-revoke <key> 
+  227  gpg --output my_revocation_certificate.asc --gen-revoke<key> 
+  228  gpg --output my_revocation_certificate.asc --gen-revoke <key> 
+  229  gpg --list-keys
+  230  [200~gpg --list-secret-keys~
+  231  gpg --list-secret-keys
+  232  [200~gpg --output doc.gpg --export <key>~
+  233  gpg --output doc.gpg --export <key>
+  234  
+  235  gpg --export-secret-keys --armor <key> > ./my-priv-gpg-key.asc
+  236  gpg --export-secret-keys --armor <key>  ./my-priv-gpg-key.asc
+  237  gpg --output doc.gpg --export 18C21DDB869F8946FC2EC698D45FCB0D06944022
+  238  cd Documents
+  239  gpg --output doc.gpg --export 18C21DDB869F8946FC2EC698D45FCB0D06944022
+  240  ls
+  241  cd ..
+  242  cd Documentos
+  243  gpg --output doc.gpg --export 18C21DDB869F8946FC2EC698D45FCB0D06944022
+  244  gpg --export-secret-keys --armor 18C21DDB869F8946FC2EC698D45FCB0D06944022 > ./my-priv-gpg-key.asc
+  245  gpg --import ~/Downloads/18C21DDB869F8946FC2EC698D45FCB0D06944022.gpg
+  246  gpg --import /home/uca/Escritorio/Llaves/raulkey.gpg 
+  247  gpg --edit-key Polo8308
+  248  gpg --edit-key 18C21DDB869F8946FC2EC698D45FCB0D06944022
+  249  gpg --list-keys
+  250  fpr
+  251  gpg --edit-key 18C21DDB869F8946FC2EC698D45FCB0D06944022
+  252  history > history.txt

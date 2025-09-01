@@ -1,0 +1,40 @@
+Pregunta 1 )¿Cuál es el punto más débil de PGP?
+Respuesta : La gestión de claves. Aunque el cifrado en sí mismo es robusto, si las claves privadas no se mantienen de manera segura, o si los usuarios no gestionan adecuadamente sus claves públicas, el sistema se vuelve vulnerable. Además, los ataques de "man-in-the-middle" pueden ser una amenaza si los usuarios no verifican correctamente las claves públicas
+
+
+Pregunta 2 )¿Cuándo es conveniente utilizar solamente cifrado simétrico?
+Respuesta :El cifrado simétrico es conveniente cuando se necesita velocidad y eficiencia en la transmisión de grandes cantidades de datos. Es ideal para situaciones en las que ambos lados de la comunicación ya tienen un mecanismo seguro para compartir la clave, o cuando la velocidad de procesamiento es crítica, como en el caso de cifrar archivos grandes o en sistemas con recursos limitados (como dispositivos móviles).
+
+
+
+Pregunta 3 )¿En qué consiste el ciclo de vida del desarrollo de software seguro (etapa por etapa)?
+Respuesta :
+1. **Planificación y Requisitos:**
+
+   * En esta fase, se definen los requisitos de seguridad del software y se analizan las posibles amenazas y vulnerabilidades. También se establece el cumplimiento de normativas y estándares de seguridad.
+
+2. **Diseño Seguro:**
+
+   * En esta etapa, se diseñan las arquitecturas y las soluciones de seguridad para proteger los datos y las comunicaciones dentro del sistema. Esto incluye el uso de técnicas como la autenticación, autorización, y encriptación.
+
+3. **Desarrollo y Codificación:**
+
+   * Durante el desarrollo, los programadores implementan las funcionalidades siguiendo prácticas de codificación segura, como la validación de entradas, el manejo adecuado de errores y la protección contra inyecciones de código.
+
+4. **Pruebas de Seguridad:**
+
+   * Esta etapa incluye la realización de pruebas como el análisis estático de código, las pruebas de penetración y las auditorías de seguridad para identificar posibles vulnerabilidades y debilidades en el sistema.
+
+5. **Implementación y Despliegue:**
+
+   * Una vez que el software ha sido probado y está listo para su uso, se implementa en un entorno de producción, asegurándose de que las configuraciones de seguridad sean adecuadas y se mantengan actualizadas.
+
+6. **Mantenimiento y Monitoreo:**
+
+   * Después del lanzamiento, el software debe ser monitoreado para detectar posibles incidentes de seguridad. También es importante realizar actualizaciones periódicas y correcciones de seguridad (parches) a medida que surgen nuevas amenazas.
+
+7. **Desactivación y Retiro:**
+
+   * Finalmente, cuando el software ya no es necesario o se ha vuelto obsoleto, se deben eliminar de manera segura los datos y componentes asociados para evitar riesgos de seguridad.
+
+
